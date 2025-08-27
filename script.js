@@ -62,10 +62,18 @@ if (ref === "a" || ref === "e" || ref === "i" || ref === "o" || ref === "u") {
   console.log("Es consonante");
 }
 
-// Resolución del undécimo ejercicio
-ref = Pedro;
+// Resolución del ejercicio numero 11
+ref = "Pedro";
 if (ref === "Pedro") {
-  console.log("Hola Pedro");
+  console.log("Hola Pedro, Cómo estás?");
 } else {
-  console.log("Como te llamas?");
+  console.log("Hola! Cómo te llamas?");
+}
+
+// Resolución del ejercicio numero 12
+ref = 8;
+if (ref >= 7) {
+  console.log("Estás aprobado");
+} else {
+  console.log("Estás desaprobado");
 }
