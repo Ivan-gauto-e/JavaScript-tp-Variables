@@ -47,3 +47,25 @@ if (Numero1 % 2 === 0) {
 } else {
   console.log("Numero1 es impar");
 }
+
+// Resolución del noveno ejercicio
+if (Numero1 > 0) {
+  console.log("Numero1 es positivo");
+} else {
+  console.log("Numero1 es negativo");
+}
+
+// Resolución del décimo ejercicio
+if (ref === "a" || ref === "e" || ref === "i" || ref === "o" || ref === "u") {
+  console.log("Es una vocal");
+} else {
+  console.log("Es consonante");
+}
+
+// Resolución del undécimo ejercicio
+ref = Pedro;
+if (ref === "Pedro") {
+  console.log("Hola Pedro");
+} else {
+  console.log("Como te llamas?");
+}
